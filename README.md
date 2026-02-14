@@ -58,6 +58,10 @@ Make the setup script executable and RUN it:
 
 ## Starting ComfyUI
 
+From the terminal on your local machine run the following
+
+`ssh -i ec2-key.pem ubuntu@<EC2_PUBLIC_IP>`
+
 `cd /opt/dlami/nvme/ComfyUI`
 
 `source comfy-venv/bin/activate`
@@ -66,7 +70,7 @@ Make the setup script executable and RUN it:
 
 ## Accessing ComfyUI (SSH Tunnel)
 
-From your local machine:
+From your local machine open another terminal (ensure to keep the previous ssh connection open, do not close it)
 
 `ssh -i ec2-key.pem -L 8188:127.0.0.1:8188 ubuntu@<EC2_PUBLIC_IP>`
 
