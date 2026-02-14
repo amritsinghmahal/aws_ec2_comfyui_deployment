@@ -58,7 +58,6 @@ Make the setup script executable and RUN it:
 
 ## Starting ComfyUI
 
-
 `cd /opt/dlami/nvme/ComfyUI`
 
 `source comfy-venv/bin/activate`
