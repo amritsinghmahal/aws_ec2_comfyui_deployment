@@ -58,7 +58,6 @@ Make the setup script executable and RUN it:
 
 ## Starting ComfyUI
 
-The script would itself start ComfyUI, if stopped for any reason then you can manually start the service.
 
 `cd /opt/dlami/nvme/ComfyUI`
 
